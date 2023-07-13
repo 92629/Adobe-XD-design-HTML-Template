@@ -1,0 +1,393 @@
+.navbar {
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-nav {
+    margin-right: auto;
+    display: flex;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000;
+    font: normal normal 600 19px/26px Segoe UI;
+    margin-left: 80px;
+    
+  }
+ .special-nav {
+    margin-inline-start: 70px;
+  }
+.text-center{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100px; 
+}
+.border-line {
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .main-content {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .main-content .content-text {
+    padding-bottom: 10%;
+    padding-left: 10%;
+    text-align: left;
+  }
+  
+  .main-content .content-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .main-content .content-image img {
+    width: 509px;
+    height: 500px;
+  }
+  .btn-primary{
+width: 180px;
+height: 55px;
+margin-top: 35px;
+/* UI Properties */
+background: #1492E6 0% 0% no-repeat padding-box;
+box-shadow: 0px 16px 48px #00000029;
+border-radius: 33px;
+opacity: 1;
+color:white;
+  }
+  .main-contents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10%;
+  }
+  
+  .small-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .small-box {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 19px;
+    width: 308px;
+    height: 320px;
+    margin-left: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  }
+
+  .image-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .image-section img {
+    flex: 1;
+    padding:40px;
+    width: 185px;
+    height: 171px;
+    margin-right: 80px;
+    margin-left: 120px;
+  }
+  .image-section h3 {
+    text-align: center;
+  }
+  
+  .image-section p {
+    text-align: center;
+  }
+  .images-heading {
+    font: normal normal bold 35px/47px Nunito Sans;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left:60px;
+    text-align: center;
+  }
+  .logo-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .logo-section img {    
+    width: 70px;
+    height: 70px; /* Adjust the logo size as needed */
+    margin-right: 30px; /* Adjust the spacing between the logo and text as needed */
+    margin-left: 100px;
+  }
+  
+  .logo-section h3 {
+    width: 253px;
+    height: 32px;
+    margin-bottom: 10px;
+
+  }
+  
+  .logo-content p {
+    margin-left: 10px;
+    margin-bottom: 10px; /* Adjust the spacing between the paragraph and button as needed */
+  }
+  
+  .logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    }
+    .heading-part{
+    font: normal normal bold 35px/47px Nunito Sans;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left:60px;
+    text-align: center;
+
+
+    }
+    .logo-section2 {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+      }
+      
+      .logo-section2 img {    
+        width: 70px;
+        height: 70px; /* Adjust the logo size as needed */
+        margin-right: 30px; /* Adjust the spacing between the logo and text as needed */
+        margin-left: 100px;
+      }
+      
+      .logo-section2 h3 {
+        width: 253px;
+        height: 32px;
+        margin-bottom: 10px;
+    
+      }
+      
+      .logo-content2 p {
+        margin-left: 10px;
+        margin-bottom: 10px; /* Adjust the spacing between the paragraph and button as needed */
+      }
+      
+      .logo-content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        }
+        .move{
+            margin-left: 900px;
+        }
+        .logo-section3 {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+          }
+          
+          .logo-section3 img {    
+            width: 70px;
+            height: 70px; /* Adjust the logo size as needed */
+            margin-right: 30px; /* Adjust the spacing between the logo and text as needed */
+            margin-left: 100px;
+          }
+          
+          .logo-section3 h3 {
+            width: 253px;
+            height: 32px;
+            margin-bottom: 10px;
+        
+          }
+          
+          .logo-content3 p {
+            margin-left: 10px;
+            margin-bottom: 10px; /* Adjust the spacing between the paragraph and button as needed */
+          }
+          
+          .logo-content3 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 100px;
+            }
+            .logo-section4 {
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+              }
+              
+              .logo-section4 img {    
+                width: 70px;
+                height: 70px; /* Adjust the logo size as needed */
+                margin-right: 30px; /* Adjust the spacing between the logo and text as needed */
+                margin-left: 100px;
+              }
+              
+              .logo-section4 h3 {
+                width: 253px;
+                height: 32px;
+                margin-bottom: 10px;
+            
+              }
+              
+              .logo-content4 p {
+                margin-left: 10px;
+                margin-bottom: 10px; /* Adjust the spacing between the paragraph and button as needed */
+              }
+              
+              .logo-content4 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-left: 100px;
+                }
+                .move3{
+                    margin-left: 900px;
+                }
+                .heading-part1{
+                    font: normal normal bold 35px/47px Nunito Sans;
+                    padding: 10px;
+                    margin-top: 30px;
+                    margin-left:60px;
+                    text-align: center;
+                }
+    .big-box{
+        top: 3764px;
+        left: 59px;
+        width: 1200px;
+        height: 363px;
+/* UI Properties */
+       background: #F8FAFC 0% 0% no-repeat padding-box;
+       box-shadow: 0px 16px 48px #00000029;
+       border-radius: 42px;
+       opacity: 1;
+       margin-left: 100px;
+       margin-right: 1px;
+    }
+    .three-small-box{
+        display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    }
+    .box{
+        flex: 1;
+    padding: 20px;
+    border-radius: 19px;
+    width: 250px;
+    height: 250px;
+    margin-left: 60px;
+    margin-right: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+        
+    }
+    .try{
+        display: flex;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    .try img{
+        margin-right: 10px;
+    }
+    .part{
+        display: flex;
+        
+    }
+    .part h4{
+        margin-top: 15px;
+    }
+    .star{
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+    .ceo{
+        height: 18px;
+        width: 26px;
+        margin-top: 20px;
+        margin-left: -60px;
+       color: #615C5C;
+       opacity: 1;
+       
+    }
+    .ceo1{
+        height: 18px;
+        width: 26px;
+        margin-top: 20px;
+        margin-left: -100px;
+       color: #615C5C;
+
+    }
+    .ceo2{
+        height: 18px;
+        width: 26px;
+        margin-top: 20px;
+        margin-left: -100px;
+       color: #615C5C;
+
+    }
+    .image-part{
+        margin-right: 15px;
+        margin-top: 10px;
+        width: 42px;
+       height: 43px;
+    }
+.last-heading{
+    text-align: center;
+    margin-top: 200px;
+    font: normal normal bold 35px/47px Nunito Sans;
+}
+.final {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 120px;
+    margin-left: 150px;
+
+  }
+  
+  .picture {
+    text-align: center;
+    margin-right: 150px;
+  }
+  picture:last-child{
+    right: 10px;
+  }
+  
+  .picture img {
+    width: 185px;
+   height: 100px;
+  }
+  
+  .picture p {
+    margin-top: 10px;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 120px;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .footer p {
+    margin-left: 500px;
+    width: 126px;
+    height: 24px;
+    margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  
